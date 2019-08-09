@@ -10,8 +10,8 @@ public class WebDriverProvider {
 
 	public static WebDriver driverInstance;
 	
-//	public static WebDriver getDriverInstance()
-//	 {
+	public static WebDriver getDriverInstance()
+	 {
 	  if (driverInstance == null)
 	  {
 		  ChromeOptions chromeOptions = new ChromeOptions();
@@ -19,7 +19,7 @@ public class WebDriverProvider {
 
 		  driverInstance = new ChromeDriver(chromeOptions);
 	  }
-	  return driverInstance
+	  return driverInstance;
 	 }
 }
 
