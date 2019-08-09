@@ -15,8 +15,8 @@ public class PropertyProvider {
 	
 	private static Properties properties = null;
 	
-	public static String getProperty(String property) 
-	{
+//	public static String getProperty(String property)
+//	{
 		if (properties == null)
 		{
 			loadProperties(FILEPATH);
